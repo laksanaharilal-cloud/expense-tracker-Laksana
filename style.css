@@ -203,3 +203,67 @@ tr:hover {
         margin-bottom: 10px;
     }
 }
+
+
+#monthlySummary {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.month-item {
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.month-name {
+    font-weight: bold;
+}
+
+.month-amount {
+    font-weight: bold;
+}
+
+#categoryChart {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.category-item {
+    margin-bottom: 15px;
+}
+
+.category-name {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.category-bar-container {
+    width: 100%;
+    height: 25px;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.category-bar {
+    height: 100%;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.category-amount {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+}
